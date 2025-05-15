@@ -1,0 +1,130 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narcotics Detection</title>
+</head>
+<body>
+    <h1>Narcotics Detection</h1>
+    <form action="/check" method="post">
+        <label for="message">Enter your message:</label><br>
+        <input type="text" id="message" name="message" required><br>
+        <input type="submit" value="Check">
+    </form>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narcotics Detection</title>
+    <link rel="stylesheet" href="static/style.css" >
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    /* border: 0px solid;
+    border-color: white;
+    border-width: 10px; */
+}
+
+h1 {
+    color: #ffffff;
+    font-family: "Bebas Neue";
+    align-items: center;
+    text-align: center;
+    font-size: 120px;
+    margin-top: 40px;
+    font-stretch: expanded;
+    filter: drop-shadow(0 0 20px rgb(105, 121, 245));
+}
+
+
+form{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+label.enter{
+    color: rgb(255, 255, 255);
+    align-items: center ;
+    text-align: left;
+    font-family: "Poppins";
+    font-size: 20px;
+    margin-top: 130px;
+    padding-left: 360px;
+}
+
+#message{
+    height: 50px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 5px;
+    padding-left: 20px;
+    box-shadow: 0 0 50px rgb(105, 121, 245);
+}
+
+.submit{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 47vw;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-weight: 10px;
+    border: 4px solid;
+    background: none;
+    color: rgb(105, 121, 245);
+    border-radius: 25px;
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.submit:hover{
+    border: 4px solid;
+    border-color: rgb(105, 121, 245);
+    background: white;
+    color: black;
+}
+    </style>
+    <h1>MEXICAN BROS.</h1>
+    <form action="/check" method="post">
+        <label class = "enter" for="message" >ENTER YOUR REQUIREMENTS:</label><br>
+        <input type="text" id="message" name="message" required placeholder="ENTER"><br>
+        <input class = "submit" type="submit" value="Check">
+    </form>
+</body>
+</html>
