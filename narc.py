@@ -4,7 +4,7 @@
 # from datetime import datetime, timedelta 
 # import requests  
 
-# TOKEN = "7279484881:AAHQN-E1AAhZZyVVfPhG4U40-rWrvc6Aewk"
+# TOKEN = "get your bot token"
 # POLICE_GROUP_CHAT_ID = "your telegram id"  
 
 # narcotics_words = ["💊", "drugs", "cocaine", "heroin", "meth", "ecstasy", "weed", "marijuana","maal", "buy", "sell", "drug", "lsd"]
