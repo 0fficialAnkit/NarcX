@@ -7,7 +7,7 @@
 
 # app = Flask(__name__)
 
-# TOKEN = "7279484881:AAHQN-E1AAhZZyVVfPhG4U40-rWrvc6Aewk"
+# TOKEN = "get your bot token"
 # POLICE_GROUP_CHAT_ID = "your telegram id"
 
 # narcotics_words =  {
